@@ -2,23 +2,30 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  background: rgb(218, 216, 216);
+  background: rgb(250, 246, 246);
   font-family: poppins;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 .btn {
   font-family: poppins;
-  background-color: rgb(12, 12, 238);
+  background-color: rgb(18, 18, 112);
   color: white;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px 8px;
+  width: 50px;
 }
 
 .input {
   width: 300px;
   height: 30px;
   border-radius: 5px;
+  font-family: poppins;
+  padding-left: 10px;
 }
 
 .box-question {
@@ -37,4 +44,13 @@ body {
   width: 400px;
   border-radius: 7px;
   box-shadow: 2px 4px 10px rgb(148, 145, 145);
+}
+
+.container {
+  margin: 20px;
+}
+
+.link {
+  margin-top: 20px;
+  margin-left: 5px;
 }
